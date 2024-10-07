@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG-20240521-WA0025.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "collection_list_mpAUXf": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_GAAqHg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "watche"
+          }
+        },
+        "featured_collection_WmieWF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wallet"
+          }
+        },
+        "featured_collection_GDYi8B": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "belt"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_GAAqHg",
+        "featured_collection_WmieWF",
+        "featured_collection_GDYi8B"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-4",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<em><strong>Bestsellers Watches<\/strong><\/em>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "watche",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>24\/7* Service | COD Avaliable | Primium Products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "featured_product_FTeCEP": {
+      "type": "featured-product",
+      "blocks": {
+        "text_mng8TK": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_XKGJ3B": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_hL6dtQ": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_gVtVqt": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_GkcxD3": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_YHdFVq": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_LcYiEA": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_mng8TK",
+        "title_XKGJ3B",
+        "price_hL6dtQ",
+        "variant_picker_gVtVqt",
+        "quantity_selector_GkcxD3",
+        "buy_buttons_YHdFVq",
+        "share_LcYiEA"
+      ],
+      "settings": {
+        "product": "fossil",
+        "color_scheme": "scheme-4",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn1": {
+      "type": "multicolumn",
+      "blocks": {
+        "column7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-22_at_9.43.09_AM.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "REVIEW",
+            "link": ""
+          }
+        },
+        "column8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-22_at_9.43.09_AM_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "REVIEW",
+            "link": ""
+          }
+        },
+        "column9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-22_at_9.43.08_AM.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "REVIEW",
+            "link": ""
+          }
+        },
+        "column10": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-22_at_9.43.10_AM.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "REVIEW",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column7",
+        "column8",
+        "column9",
+        "column10"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "collection_list_mpAUXf",
+    "featured_collection1",
+    "rich_text",
+    "featured_product_FTeCEP",
+    "multicolumn1"
+  ]
+}
