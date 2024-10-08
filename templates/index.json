@@ -1,55 +1,213 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG-20240521-WA0025.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "collection_list_mpAUXf": {
-      "type": "collection-list",
+    "slideshow_LGfd3j": {
+      "type": "slideshow",
       "blocks": {
-        "featured_collection_GAAqHg": {
-          "type": "featured_collection",
+        "slide_pYqUB9": {
+          "type": "slide",
           "settings": {
-            "collection": "watche"
+            "image": "shopify:\/\/shop_images\/Balmain.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "featured_collection_WmieWF": {
-          "type": "featured_collection",
+        "slide_jGzWk3": {
+          "type": "slide",
           "settings": {
-            "collection": "wallet"
+            "image": "shopify:\/\/shop_images\/rolex.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "featured_collection_GDYi8B": {
-          "type": "featured_collection",
+        "slide_x4dRn9": {
+          "type": "slide",
           "settings": {
-            "collection": "belt"
+            "image": "shopify:\/\/shop_images\/omega.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_NnDVYk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tissot.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xxV96L": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-20240521-WA0025.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "featured_collection_GAAqHg",
-        "featured_collection_WmieWF",
-        "featured_collection_GDYi8B"
+        "slide_pYqUB9",
+        "slide_jGzWk3",
+        "slide_x4dRn9",
+        "slide_NnDVYk",
+        "slide_xxV96L"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
-        "title": "Collections",
-        "heading_size": "h2",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_slider_NDaxUU": {
+      "type": "collection-slider",
+      "blocks": {
+        "featured_collection_wB7jjj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "audemars-piguet"
+          }
+        },
+        "featured_collection_yQnmGc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "diesel"
+          }
+        },
+        "featured_collection_KeJ8ab": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "casio"
+          }
+        },
+        "featured_collection_MXANqd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "er"
+          }
+        },
+        "featured_collection_kGdgxL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fossil"
+          }
+        },
+        "featured_collection_xHpEcg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "g-shock"
+          }
+        },
+        "featured_collection_c9HUEU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hublot"
+          }
+        },
+        "featured_collection_AbLQbf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "omega"
+          }
+        },
+        "featured_collection_AwdUUP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "patek-philippe"
+          }
+        },
+        "featured_collection_HNWXp4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rado"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_wB7jjj",
+        "featured_collection_yQnmGc",
+        "featured_collection_KeJ8ab",
+        "featured_collection_MXANqd",
+        "featured_collection_kGdgxL",
+        "featured_collection_xHpEcg",
+        "featured_collection_c9HUEU",
+        "featured_collection_AbLQbf",
+        "featured_collection_AwdUUP",
+        "featured_collection_HNWXp4"
+      ],
+      "custom_css": [
+        ".card__heading {opacity: 0;}",
+        "img {object-fit: contain;}",
+        ".slider-button--prev {left: -5%;}",
+        ".slider-button--next {right: -5%;}",
+        ".slider-button {background: transparent; color: black; transition: all 0.5s;}",
+        "@media screen and (max-width: 749px) {.slider-button--prev {top: 100%; left: 0; } .slider-button--next {right: 0; top: 100%; } .grid__item {width: calc(49%); }}"
+      ],
+      "settings": {
+        "title": "Our Collections",
+        "content_alignment": "left",
+        "image_overlay_opacity": 0,
+        "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "scheme-4",
-        "show_view_all": false,
+        "color_scheme": "scheme-2",
+        "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -58,29 +216,63 @@
     },
     "featured_collection1": {
       "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.slider-button--prev {top: 95%; right: 56%; color: black; background: transparent; } .slider-button--next {right: 32%; top: 95%; color: black; background: transparent; }}"
+      ],
       "settings": {
-        "title": "<em><strong>Bestsellers Watches<\/strong><\/em>",
-        "heading_size": "h2",
+        "title": "Emporio Armani",
+        "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "watche",
+        "collection": "er",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_kN3MfB": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.slider-button--prev {top: 95%; right: 56%; color: black; background: transparent; } .slider-button--next {right: 32%; top: 95%; color: black; background: transparent; }}"
+      ],
+      "settings": {
+        "title": "Fossil",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "fossil",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-4",
-        "image_ratio": "adapt",
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
-        "quick_add": "bulk",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 52,
         "padding_bottom": 52
       }
     },
@@ -90,7 +282,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>24\/7* Service | COD Avaliable | Primium Products<\/p>"
+            "text": "<p><strong>24\/7* Service | COD Avaliable | Primium Products<\/strong><\/p>"
           }
         }
       },
@@ -104,77 +296,6 @@
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 4
-      }
-    },
-    "featured_product_FTeCEP": {
-      "type": "featured-product",
-      "blocks": {
-        "text_mng8TK": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_XKGJ3B": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_hL6dtQ": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_gVtVqt": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_GkcxD3": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_YHdFVq": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_LcYiEA": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_mng8TK",
-        "title_XKGJ3B",
-        "price_hL6dtQ",
-        "variant_picker_gVtVqt",
-        "quantity_selector_GkcxD3",
-        "buy_buttons_YHdFVq",
-        "share_LcYiEA"
-      ],
-      "settings": {
-        "product": "fossil",
-        "color_scheme": "scheme-4",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn1": {
@@ -227,30 +348,51 @@
         "column9",
         "column10"
       ],
+      "custom_css": [
+        "img {border-radius: 10px;}"
+      ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 68,
         "padding_bottom": 68
       }
+    },
+    "featured_blog_U6L7iM": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "News & Events",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner",
-    "collection_list_mpAUXf",
+    "slideshow_LGfd3j",
+    "collection_slider_NDaxUU",
     "featured_collection1",
+    "featured_collection_kN3MfB",
     "rich_text",
-    "featured_product_FTeCEP",
-    "multicolumn1"
+    "multicolumn1",
+    "featured_blog_U6L7iM"
   ]
 }
