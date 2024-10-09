@@ -15,14 +15,16 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "variant_picker_Cegkxr": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "buy_buttons_jN9EPH": {
@@ -32,20 +34,39 @@
             "show_gift_card_recipient": true
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "icon_with_text_QnnbHz": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "heading_1": "Premium Quality",
+            "icon_2": "truck",
+            "heading_2": "Fast Delivery",
+            "icon_3": "box",
+            "heading_3": "Secure Packing"
           }
         }
       },
       "block_order": [
         "text_CL8D8i",
         "title",
-        "description",
         "price",
+        "variant_picker_Cegkxr",
         "buy_buttons_jN9EPH",
-        "share"
+        "description",
+        "share",
+        "icon_with_text_QnnbHz"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -56,11 +77,27 @@
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
-        "enable_video_looping": false,
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1728464438e99c4fa6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_d7jtx3": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_d7jtx3"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "related-products": {
@@ -84,6 +121,7 @@
   },
   "order": [
     "main",
+    "1728464438e99c4fa6",
     "related-products"
   ]
 }
