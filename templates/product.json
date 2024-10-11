@@ -6,7 +6,7 @@
         "text_CL8D8i": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ product.vendor }}",
             "text_style": "body"
           }
         },
@@ -39,22 +39,22 @@
           "settings": {
           }
         },
+        "icon_with_text_QnnbHz": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "star",
+            "heading_1": "Premium quality",
+            "icon_2": "plane",
+            "heading_2": "100% genuine products",
+            "icon_3": "lock",
+            "heading_3": "100% secure and safe transaction"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "icon_with_text_QnnbHz": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "star",
-            "heading_1": "Premium Quality",
-            "icon_2": "truck",
-            "heading_2": "Fast Delivery",
-            "icon_3": "box",
-            "heading_3": "Secure Packing"
           }
         }
       },
@@ -65,8 +65,8 @@
         "variant_picker_Cegkxr",
         "buy_buttons_jN9EPH",
         "description",
-        "share",
-        "icon_with_text_QnnbHz"
+        "icon_with_text_QnnbHz",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -84,26 +84,77 @@
         "padding_bottom": 36
       }
     },
-    "1728464438e99c4fa6": {
-      "type": "apps",
+    "custom_tabs_by7zqy": {
+      "type": "custom-tabs",
       "blocks": {
-        "judge_me_reviews_review_widget_d7jtx3": {
+        "tab_cJqxkq": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Description"
+          }
+        },
+        "text_eaNDGw": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.large_description | metafield_tag }}"
+          }
+        },
+        "tab_HkQNQ7": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Reviews"
+          }
+        },
+        "judge_me_reviews_review_widget_t4eigH": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
+          }
+        },
+        "tab_6aQ3eK": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "Shipping & Returns"
+          }
+        },
+        "text_gVCmEB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shipping policy<\/p><p>What is the estimated shipping time for orders?<\/p><p>We know once you have placed your order, you are anxious to receive your new watch .<\/p><p>We will be processing your order within 24 hours.<\/p><p>In -stock items, with in 2 working business days of receiving order.<\/p><p>Out of stock items: you will be notified if an item is out of stock when your order is processed. We will email you the estimated lead time and you have an option to cancel the order with refund. If you keep the order, we will keep you updated on the back order status and you may choose at any time before shipping for a refund.<\/p><p> <\/p><p>Do you offer free shipping?<\/p><p>All shipping is free as clearly indicated to only country: India once you select continue after entering your shipping address during the checkout process. You may write into us for any further query or concern at <a href=\"mailto:support@theluxurymart.com\" target=\"_blank\" title=\"mailto:support@theluxurymart.com\">support@theluxurymart.com<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_d7jtx3"
+        "tab_cJqxkq",
+        "text_eaNDGw",
+        "tab_HkQNQ7",
+        "judge_me_reviews_review_widget_t4eigH",
+        "tab_6aQ3eK",
+        "text_gVCmEB"
       ],
       "settings": {
-        "include_margins": true
+        "text_size": 100,
+        "tab_style": "buttons",
+        "tab_label_color": "#001128",
+        "tab_label_highlight_color": "#fbfaf8",
+        "tab_background_color": "#fbfaf8",
+        "tab_highlight_color": "#98702b",
+        "text_color": "#001128",
+        "background_color": "#fbfaf8",
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": true,
+        "heading_font": "chong_modern_n4",
+        "main_font": "century_gothic_n4"
       }
     },
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Other Industry favorites",
+        "heading": "You May Also Like",
         "heading_size": "h2",
         "products_to_show": 5,
         "columns_desktop": 5,
@@ -121,7 +172,7 @@
   },
   "order": [
     "main",
-    "1728464438e99c4fa6",
+    "custom_tabs_by7zqy",
     "related-products"
   ]
 }

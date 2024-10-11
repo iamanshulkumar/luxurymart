@@ -2,11 +2,14 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        ".card__media .media img {object-fit: contain;}"
+      ],
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "columns_mobile": "2"
       }
     }

@@ -1,0 +1,44 @@
+    {%- style -%}
+    .two-images-with-text {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-box {
+        width: 45%; /* Adjust the width as needed */
+        position: relative;
+    }
+
+    .image-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    .image-box:hover img {
+        scale: 1.1;
+    }
+
+    {%- endstyle -%}
+<div class="page-width">
+
+
+    <div class="two-images-with-text">
+    <div class="image-box">
+        <a href="">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0667/8046/3161/files/Watches_For_Her-615x400_px.webp?v=1728632585"
+            alt="Image 1" height="100%" width="100%"
+        >
+        </a>
+    </div>
+    <div class="image-box">
+        <a href="">
+        <img
+            src="https://cdn.shopify.com/s/files/1/0667/8046/3161/files/Watches_For_Him-615x400_px.webp?v=1728632584"
+            alt="Image 2" height="100%" width="100%"
+        >
+        </a>
+    </div>
+    </div>
+</div>
